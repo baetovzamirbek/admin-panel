@@ -1,0 +1,91 @@
+body {
+  background: #f2f6f8;
+}
+
+.form_control {
+  min-height: 38px;
+}
+
+.card {
+  max-width: 100%!important;
+}
+
+/* Change table size */
+.table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+#th_name {
+  width: 18%;
+}
+
+#th_price {
+  width: 8%;
+}
+
+#th_category {
+  width: 10%;
+}
+
+#th_decription {
+  max-width: 50%;
+}
+
+#th_icon {
+  width: 3%;
+}
+
+#th_color {
+  width: 10%;
+}
+
+/* fa icon style */
+.fa {
+  color: red;
+}
+#deleteSingle {
+  color: blue;
+}
+
+/*Hidden form->button style*/
+#save, #add {
+  display: none;
+  margin: auto;
+}
+
+/* Remove Arrows/Spinners */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+#plus:hover , #clear:hover {
+  cursor: pointer;
+}
+#plus #edit{
+  color: #000;
+}
+#plus {
+  margin-left: 200px;
+  font-size: 14px;
+}
+#clear {
+  margin-left: 40px;
+  font-size: 14px;
+}
+.fa-minus, .fa-pencil {
+  color: #007bff;
+}
+
+.fa-plus, .fa-close {
+  color: #bd2130
+}
