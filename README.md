@@ -10,4 +10,4 @@ The admin panel is the primary tool to work with online store. Here you can mana
 1) Create a MySQL database as "ecommerce"
 2) Create the tables by running the queries in quickies.sql
 3) Edit components/conn.php to match your database connection settings
-4) upload the whole quickies directory to your web server
+4) Upload the whole files and folders to your web server
